@@ -1,37 +1,9 @@
 # MyApp
 
-This template should help get you started developing with Vue 3 in Vite.
+Frontend application based on vuejs 3.
 
-## Recommended IDE Setup
+Amazon web services are used for the backend part.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+The application consumes an api, created in the Api Gateway, which is connected to Lambda functions and these functions are connected to mongo atlas.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-
-## img size 250x250 pixeles
+This application is under development.
